@@ -241,7 +241,7 @@ section {
     position: relative;
 }
 
-.full-banner :before {
+.full-banner ::before {
     content: "";
     position: absolute;
     border: 1px solid #ffffff;
@@ -273,7 +273,7 @@ section {
     line-height: 1;
 }
 
-.full-banner-sidebar h4:after {
+.full-banner-sidebar h4::after {
     content: "";
     width: 100px x 1px;
     height: 100px x 1px;
